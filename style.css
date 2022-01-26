@@ -1,0 +1,70 @@
+*{
+    font-family: sans-serif;
+}
+
+html{
+    background-color: #121216;
+}
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#busca{
+    align-items: center;
+    background-color: transparent;
+    color: #909090;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+
+#argumento{
+    background-color: transparent;
+    border: 1px solid #909090;
+    border-radius: 2rem;
+    color: #909090 ;
+    font-size: 1.1rem;
+    padding: 3% 5%;
+}
+
+#botaoBuscar{
+    background-color: #b3b3b3;
+    border-radius: 2rem;
+    color: black;
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+    padding: 0.5rem 3rem;
+}
+
+#card{
+    background-color: transparent;
+    color: #b3b3b5;
+    text-align: justify;
+}
+
+thead{
+    color: #909090;
+}
+
+.playButton, .stopButton{
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.stop{
+    display: none;
+}
+
+img{
+    border-radius: 0.25rem;
+}
+
+td{
+    padding: 0 2rem 0 0;
+}
